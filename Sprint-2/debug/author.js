@@ -3,7 +3,8 @@ We will get an error due to the loop using the for...of synax.
 
 // This program attempts to log out all the property values in the object.
 // But it isn't working. Explain why first and then fix the problem
-for...of synax works for objects that are iterable like arrays and strings.
+for...of synax works for objects that are iterable like arrays and strings. 
+The way to fix such a problem is to first turn the oject into an array.
 
 const author = {
   firstName: "Zadie",
